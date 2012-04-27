@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F9F746C154A8A3100BA9168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746B154A8A3100BA9168 /* UIKit.framework */; };
+		2F9F746E154A8A3100BA9168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746D154A8A3100BA9168 /* Foundation.framework */; };
+		2F9F7470154A8A3100BA9168 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746F154A8A3100BA9168 /* CoreGraphics.framework */; };
+		2F9F7476154A8A3100BA9168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F7474154A8A3100BA9168 /* InfoPlist.strings */; };
+		2F9F7478154A8A3100BA9168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F7477154A8A3100BA9168 /* main.m */; };
+		2F9F747C154A8A3100BA9168 /* KMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F747B154A8A3100BA9168 /* KMAppDelegate.m */; };
+		2F9F748D154A8A3100BA9168 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F748C154A8A3100BA9168 /* SenTestingKit.framework */; };
+		2F9F748E154A8A3100BA9168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746B154A8A3100BA9168 /* UIKit.framework */; };
+		2F9F748F154A8A3100BA9168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746D154A8A3100BA9168 /* Foundation.framework */; };
+		2F9F7497154A8A3100BA9168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F7495154A8A3100BA9168 /* InfoPlist.strings */; };
+		2F9F749A154A8A3100BA9168 /* KMSliderPuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F7499154A8A3100BA9168 /* KMSliderPuzzleTests.m */; };
+		2F9F74AD154A8A9B00BA9168 /* KMCanvasPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74A5154A8A9B00BA9168 /* KMCanvasPatch.m */; };
+		2F9F74AE154A8A9B00BA9168 /* KMCanvasPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74A5154A8A9B00BA9168 /* KMCanvasPatch.m */; };
+		2F9F74AF154A8A9B00BA9168 /* KMImagePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74A7154A8A9B00BA9168 /* KMImagePatch.m */; };
+		2F9F74B0154A8A9B00BA9168 /* KMImagePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74A7154A8A9B00BA9168 /* KMImagePatch.m */; };
+		2F9F74B1154A8A9B00BA9168 /* KMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74AA154A8A9B00BA9168 /* KMViewController.m */; };
+		2F9F74B2154A8A9B00BA9168 /* KMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74AA154A8A9B00BA9168 /* KMViewController.m */; };
+		2F9F74B3154A8A9B00BA9168 /* KMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AB154A8A9B00BA9168 /* KMViewController_iPad.xib */; };
+		2F9F74B4154A8A9B00BA9168 /* KMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AB154A8A9B00BA9168 /* KMViewController_iPad.xib */; };
+		2F9F74B5154A8A9B00BA9168 /* KMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AC154A8A9B00BA9168 /* KMViewController_iPhone.xib */; };
+		2F9F74B6154A8A9B00BA9168 /* KMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AC154A8A9B00BA9168 /* KMViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F9F7490154A8A3100BA9168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9F745E154A8A3100BA9168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9F7466154A8A3100BA9168;
+			remoteInfo = KMSliderPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F9F7467154A8A3100BA9168 /* KMSliderPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMSliderPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9F746B154A8A3100BA9168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F9F746D154A8A3100BA9168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F9F746F154A8A3100BA9168 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F9F7473154A8A3100BA9168 /* KMSliderPuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMSliderPuzzle-Info.plist"; sourceTree = "<group>"; };
+		2F9F7475154A8A3100BA9168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F9F7477154A8A3100BA9168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F9F7479154A8A3100BA9168 /* KMSliderPuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMSliderPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		2F9F747A154A8A3100BA9168 /* KMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMAppDelegate.h; sourceTree = "<group>"; };
+		2F9F747B154A8A3100BA9168 /* KMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMAppDelegate.m; sourceTree = "<group>"; };
+		2F9F748B154A8A3100BA9168 /* KMSliderPuzzleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMSliderPuzzleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9F748C154A8A3100BA9168 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2F9F7494154A8A3100BA9168 /* KMSliderPuzzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMSliderPuzzleTests-Info.plist"; sourceTree = "<group>"; };
+		2F9F7496154A8A3100BA9168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F9F7498154A8A3100BA9168 /* KMSliderPuzzleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMSliderPuzzleTests.h; sourceTree = "<group>"; };
+		2F9F7499154A8A3100BA9168 /* KMSliderPuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMSliderPuzzleTests.m; sourceTree = "<group>"; };
+		2F9F74A4154A8A9B00BA9168 /* KMCanvasPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCanvasPatch.h; sourceTree = "<group>"; };
+		2F9F74A5154A8A9B00BA9168 /* KMCanvasPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCanvasPatch.m; sourceTree = "<group>"; };
+		2F9F74A6154A8A9B00BA9168 /* KMImagePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMImagePatch.h; sourceTree = "<group>"; };
+		2F9F74A7154A8A9B00BA9168 /* KMImagePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMImagePatch.m; sourceTree = "<group>"; };
+		2F9F74A9154A8A9B00BA9168 /* KMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMViewController.h; sourceTree = "<group>"; };
+		2F9F74AA154A8A9B00BA9168 /* KMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMViewController.m; sourceTree = "<group>"; };
+		2F9F74AB154A8A9B00BA9168 /* KMViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMViewController_iPad.xib; sourceTree = "<group>"; };
+		2F9F74AC154A8A9B00BA9168 /* KMViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9F7464154A8A3100BA9168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9F746C154A8A3100BA9168 /* UIKit.framework in Frameworks */,
+				2F9F746E154A8A3100BA9168 /* Foundation.framework in Frameworks */,
+				2F9F7470154A8A3100BA9168 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9F7487154A8A3100BA9168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9F748D154A8A3100BA9168 /* SenTestingKit.framework in Frameworks */,
+				2F9F748E154A8A3100BA9168 /* UIKit.framework in Frameworks */,
+				2F9F748F154A8A3100BA9168 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F9F745C154A8A3100BA9168 = {
+			isa = PBXGroup;
+			children = (
+				2F9F7471154A8A3100BA9168 /* KMSliderPuzzle */,
+				2F9F7492154A8A3100BA9168 /* KMSliderPuzzleTests */,
+				2F9F746A154A8A3100BA9168 /* Frameworks */,
+				2F9F7468154A8A3100BA9168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F9F7468154A8A3100BA9168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F7467154A8A3100BA9168 /* KMSliderPuzzle.app */,
+				2F9F748B154A8A3100BA9168 /* KMSliderPuzzleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9F746A154A8A3100BA9168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F746B154A8A3100BA9168 /* UIKit.framework */,
+				2F9F746D154A8A3100BA9168 /* Foundation.framework */,
+				2F9F746F154A8A3100BA9168 /* CoreGraphics.framework */,
+				2F9F748C154A8A3100BA9168 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F9F7471154A8A3100BA9168 /* KMSliderPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F74A3154A8A9B00BA9168 /* Model */,
+				2F9F74A8154A8A9B00BA9168 /* ViewControllers */,
+				2F9F747A154A8A3100BA9168 /* KMAppDelegate.h */,
+				2F9F747B154A8A3100BA9168 /* KMAppDelegate.m */,
+				2F9F7472154A8A3100BA9168 /* Supporting Files */,
+			);
+			path = KMSliderPuzzle;
+			sourceTree = "<group>";
+		};
+		2F9F7472154A8A3100BA9168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F7473154A8A3100BA9168 /* KMSliderPuzzle-Info.plist */,
+				2F9F7474154A8A3100BA9168 /* InfoPlist.strings */,
+				2F9F7477154A8A3100BA9168 /* main.m */,
+				2F9F7479154A8A3100BA9168 /* KMSliderPuzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F9F7492154A8A3100BA9168 /* KMSliderPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F7498154A8A3100BA9168 /* KMSliderPuzzleTests.h */,
+				2F9F7499154A8A3100BA9168 /* KMSliderPuzzleTests.m */,
+				2F9F7493154A8A3100BA9168 /* Supporting Files */,
+			);
+			path = KMSliderPuzzleTests;
+			sourceTree = "<group>";
+		};
+		2F9F7493154A8A3100BA9168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F7494154A8A3100BA9168 /* KMSliderPuzzleTests-Info.plist */,
+				2F9F7495154A8A3100BA9168 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F9F74A3154A8A9B00BA9168 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F74A4154A8A9B00BA9168 /* KMCanvasPatch.h */,
+				2F9F74A5154A8A9B00BA9168 /* KMCanvasPatch.m */,
+				2F9F74A6154A8A9B00BA9168 /* KMImagePatch.h */,
+				2F9F74A7154A8A9B00BA9168 /* KMImagePatch.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F9F74A8154A8A9B00BA9168 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F74A9154A8A9B00BA9168 /* KMViewController.h */,
+				2F9F74AA154A8A9B00BA9168 /* KMViewController.m */,
+				2F9F74AB154A8A9B00BA9168 /* KMViewController_iPad.xib */,
+				2F9F74AC154A8A9B00BA9168 /* KMViewController_iPhone.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F9F7466154A8A3100BA9168 /* KMSliderPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9F749D154A8A3100BA9168 /* Build configuration list for PBXNativeTarget "KMSliderPuzzle" */;
+			buildPhases = (
+				2F9F7463154A8A3100BA9168 /* Sources */,
+				2F9F7464154A8A3100BA9168 /* Frameworks */,
+				2F9F7465154A8A3100BA9168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMSliderPuzzle;
+			productName = KMSliderPuzzle;
+			productReference = 2F9F7467154A8A3100BA9168 /* KMSliderPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F9F748A154A8A3100BA9168 /* KMSliderPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9F74A0154A8A3100BA9168 /* Build configuration list for PBXNativeTarget "KMSliderPuzzleTests" */;
+			buildPhases = (
+				2F9F7486154A8A3100BA9168 /* Sources */,
+				2F9F7487154A8A3100BA9168 /* Frameworks */,
+				2F9F7488154A8A3100BA9168 /* Resources */,
+				2F9F7489154A8A3100BA9168 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9F7491154A8A3100BA9168 /* PBXTargetDependency */,
+			);
+			name = KMSliderPuzzleTests;
+			productName = KMSliderPuzzleTests;
+			productReference = 2F9F748B154A8A3100BA9168 /* KMSliderPuzzleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F9F745E154A8A3100BA9168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Data Ninjitsu Limited";
+			};
+			buildConfigurationList = 2F9F7461154A8A3100BA9168 /* Build configuration list for PBXProject "KMSliderPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F9F745C154A8A3100BA9168;
+			productRefGroup = 2F9F7468154A8A3100BA9168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F9F7466154A8A3100BA9168 /* KMSliderPuzzle */,
+				2F9F748A154A8A3100BA9168 /* KMSliderPuzzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F9F7465154A8A3100BA9168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9F7476154A8A3100BA9168 /* InfoPlist.strings in Resources */,
+				2F9F74B3154A8A9B00BA9168 /* KMViewController_iPad.xib in Resources */,
+				2F9F74B5154A8A9B00BA9168 /* KMViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9F7488154A8A3100BA9168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9F7497154A8A3100BA9168 /* InfoPlist.strings in Resources */,
+				2F9F74B4154A8A9B00BA9168 /* KMViewController_iPad.xib in Resources */,
+				2F9F74B6154A8A9B00BA9168 /* KMViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F9F7489154A8A3100BA9168 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F9F7463154A8A3100BA9168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9F7478154A8A3100BA9168 /* main.m in Sources */,
+				2F9F747C154A8A3100BA9168 /* KMAppDelegate.m in Sources */,
+				2F9F74AD154A8A9B00BA9168 /* KMCanvasPatch.m in Sources */,
+				2F9F74AF154A8A9B00BA9168 /* KMImagePatch.m in Sources */,
+				2F9F74B1154A8A9B00BA9168 /* KMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9F7486154A8A3100BA9168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9F749A154A8A3100BA9168 /* KMSliderPuzzleTests.m in Sources */,
+				2F9F74AE154A8A9B00BA9168 /* KMCanvasPatch.m in Sources */,
+				2F9F74B0154A8A9B00BA9168 /* KMImagePatch.m in Sources */,
+				2F9F74B2154A8A9B00BA9168 /* KMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9F7491154A8A3100BA9168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9F7466154A8A3100BA9168 /* KMSliderPuzzle */;
+			targetProxy = 2F9F7490154A8A3100BA9168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F9F7474154A8A3100BA9168 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9F7475154A8A3100BA9168 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F9F7495154A8A3100BA9168 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9F7496154A8A3100BA9168 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F9F749B154A8A3100BA9168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F9F749C154A8A3100BA9168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F9F749E154A8A3100BA9168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "KMSliderPuzzle/KMSliderPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F9F749F154A8A3100BA9168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "KMSliderPuzzle/KMSliderPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F9F74A1154A8A3100BA9168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMSliderPuzzle.app/KMSliderPuzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "KMSliderPuzzleTests/KMSliderPuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2F9F74A2154A8A3100BA9168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMSliderPuzzle.app/KMSliderPuzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "KMSliderPuzzleTests/KMSliderPuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F9F7461154A8A3100BA9168 /* Build configuration list for PBXProject "KMSliderPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9F749B154A8A3100BA9168 /* Debug */,
+				2F9F749C154A8A3100BA9168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9F749D154A8A3100BA9168 /* Build configuration list for PBXNativeTarget "KMSliderPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9F749E154A8A3100BA9168 /* Debug */,
+				2F9F749F154A8A3100BA9168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F9F74A0154A8A3100BA9168 /* Build configuration list for PBXNativeTarget "KMSliderPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9F74A1154A8A3100BA9168 /* Debug */,
+				2F9F74A2154A8A3100BA9168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F9F745E154A8A3100BA9168 /* Project object */;
+}
