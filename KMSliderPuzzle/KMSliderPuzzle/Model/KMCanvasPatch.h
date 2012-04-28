@@ -13,7 +13,7 @@
 
 @property (nonatomic, assign) NSUInteger columnIndex;
 @property (nonatomic, assign) NSUInteger rowIndex;
-@property (nonatomic, assign) CGRect originalRect;
+@property (nonatomic, assign) CGRect patchRect;
 @property (nonatomic, retain) KMImagePatch *correctImagePatch;
 @property (nonatomic, retain) KMImagePatch *currentImagePatch;
 

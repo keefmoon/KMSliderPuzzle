@@ -65,6 +65,7 @@
 		2F9F74AA154A8A9B00BA9168 /* KMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMViewController.m; sourceTree = "<group>"; };
 		2F9F74AB154A8A9B00BA9168 /* KMViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMViewController_iPad.xib; sourceTree = "<group>"; };
 		2F9F74AC154A8A9B00BA9168 /* KMViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMViewController_iPhone.xib; sourceTree = "<group>"; };
+		2F9F754D154C55BD00BA9168 /* KMDebugMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDebugMarco.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +130,7 @@
 				2F9F747A154A8A3100BA9168 /* KMAppDelegate.h */,
 				2F9F747B154A8A3100BA9168 /* KMAppDelegate.m */,
 				2F9F7472154A8A3100BA9168 /* Supporting Files */,
+				2F9F754D154C55BD00BA9168 /* KMDebugMarco.h */,
 			);
 			path = KMSliderPuzzle;
 			sourceTree = "<group>";
@@ -364,7 +366,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,7 +384,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
 				INFOPLIST_FILE = "KMSliderPuzzle/KMSliderPuzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
 				INFOPLIST_FILE = "KMSliderPuzzle/KMSliderPuzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -423,6 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
 				INFOPLIST_FILE = "KMSliderPuzzleTests/KMSliderPuzzleTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -440,6 +445,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KMSliderPuzzle/KMSliderPuzzle-Prefix.pch";
 				INFOPLIST_FILE = "KMSliderPuzzleTests/KMSliderPuzzleTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -465,6 +471,7 @@
 				2F9F749F154A8A3100BA9168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F9F74A0154A8A3100BA9168 /* Build configuration list for PBXNativeTarget "KMSliderPuzzleTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				2F9F74A2154A8A3100BA9168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

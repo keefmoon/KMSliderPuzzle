@@ -10,10 +10,11 @@
 
 @interface KMViewController : UIViewController
 
+
+@property (nonatomic, assign) NSUInteger numberOfRows;
+@property (nonatomic, assign) NSUInteger numberOfColumns;
 @property (nonatomic, retain) IBOutlet UIView *puzzleView;
-
 @property (nonatomic, retain) NSMutableArray *canvasPatches;
-
 @property (nonatomic, retain) UIPanGestureRecognizer *dragGesture;
 @property (nonatomic, retain) UITapGestureRecognizer *tapGesture;
 

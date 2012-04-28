@@ -11,8 +11,7 @@
 @implementation KMImagePatch
 
 @synthesize patchImageView;
-@synthesize columnIndex;
-@synthesize rowIndex;
+@synthesize isBlank;
 
 - (void)dealloc
 {

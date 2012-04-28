@@ -12,7 +12,7 @@
 
 @synthesize columnIndex;
 @synthesize rowIndex;
-@synthesize originalRect;
+@synthesize patchRect;
 @synthesize correctImagePatch;
 @synthesize currentImagePatch;
 

@@ -11,7 +11,6 @@
 @interface KMImagePatch : NSObject
 
 @property (nonatomic, retain) UIImageView *patchImageView;
-@property (nonatomic, assign) NSUInteger columnIndex;
-@property (nonatomic, assign) NSUInteger rowIndex;
+@property (nonatomic, assign) BOOL isBlank;
 
 @end
