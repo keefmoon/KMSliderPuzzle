@@ -10,6 +10,7 @@
 
 @implementation KMCanvasPatch
 
+@synthesize index;
 @synthesize columnIndex;
 @synthesize rowIndex;
 @synthesize patchRect;

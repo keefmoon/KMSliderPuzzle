@@ -10,7 +10,9 @@
 
 @interface KMImagePatch : NSObject
 
+@property (nonatomic, assign) NSUInteger index;
 @property (nonatomic, retain) UIImageView *patchImageView;
+@property (nonatomic, retain) UIImage *image;
 @property (nonatomic, assign) BOOL isBlank;
 
 @end

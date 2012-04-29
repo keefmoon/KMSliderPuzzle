@@ -1,5 +1,5 @@
 //
-//  KMViewController.h
+//  KMPuzzleViewController.h
 //  FBSliderPuzzle
 //
 //  Created by Keith Moon on 25/04/2012.
@@ -7,15 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KMPuzzleGame.h"
 
-@interface KMViewController : UIViewController
+@interface KMPuzzleViewController : UIViewController
 
+@property (nonatomic, retain) KMPuzzleGame *game;
 
-@property (nonatomic, assign) NSUInteger numberOfRows;
-@property (nonatomic, assign) NSUInteger numberOfColumns;
-@property (nonatomic, retain) IBOutlet UIView *puzzleView;
-@property (nonatomic, retain) NSMutableArray *canvasPatches;
-@property (nonatomic, retain) UIPanGestureRecognizer *dragGesture;
-@property (nonatomic, retain) UITapGestureRecognizer *tapGesture;
+- (id)initWithGame:(KMPuzzleGame *)puzzleGame;
 
 @end

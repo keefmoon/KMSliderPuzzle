@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class KMViewController;
+@class KMPuzzleViewController;
 
 @interface KMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) KMViewController *viewController;
+@property (strong, nonatomic) KMPuzzleViewController *viewController;
 
 @end

@@ -11,6 +11,7 @@
 
 @interface KMCanvasPatch : NSObject
 
+@property (nonatomic, assign) NSUInteger index;
 @property (nonatomic, assign) NSUInteger columnIndex;
 @property (nonatomic, assign) NSUInteger rowIndex;
 @property (nonatomic, assign) CGRect patchRect;
