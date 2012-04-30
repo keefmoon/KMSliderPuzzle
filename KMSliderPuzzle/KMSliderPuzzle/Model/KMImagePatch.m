@@ -11,13 +11,11 @@
 @implementation KMImagePatch
 
 @synthesize index;
-@synthesize patchImageView;
 @synthesize image;
 @synthesize isBlank;
 
 - (void)dealloc
 {
-    self.patchImageView = nil;
     self.image = nil;
     
     [super dealloc];

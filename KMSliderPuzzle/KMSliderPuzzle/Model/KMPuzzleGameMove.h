@@ -8,10 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum KMPuzzleGameMoveDirection {
+    KMPuzzleGameMoveDirectionNone,
+    KMPuzzleGameMoveDirectionUp,
+    KMPuzzleGameMoveDirectionDown,
+    KMPuzzleGameMoveDirectionLeft,
+    KMPuzzleGameMoveDirectionRight
+} KMPuzzleGameMoveDirection;
+
 @interface KMPuzzleGameMove : NSObject
 
 @property (nonatomic, retain) NSMutableArray *imagePatchesToMove;
 @property (nonatomic, retain) NSMutableArray *startCanvasPatches;
 @property (nonatomic, retain) NSMutableArray *endCanvasPatches;
+@property (nonatomic, assign) KMPuzzleGameMoveDirection moveDirection;
+
+- (void)outputMoveDetails;
 
 @end

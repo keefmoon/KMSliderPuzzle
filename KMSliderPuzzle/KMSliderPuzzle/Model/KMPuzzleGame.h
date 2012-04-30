@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "KMCanvasPatch.h"
+#import "KMPuzzleGameMove.h"
 
 @interface KMPuzzleGame : NSObject
 
@@ -15,11 +16,28 @@
 @property (nonatomic, assign) NSUInteger numberOfColumns;
 @property (nonatomic, retain) NSMutableArray *moves;
 @property (nonatomic, retain) NSMutableArray *canvasPatches;
+@property (nonatomic, retain) KMImagePatch *blankImagePatch;
 
+#pragma mark - Game Lifecycle Methods
 - (id)initWithNumberOfRows:(NSUInteger)rows andColumns:(NSUInteger)columns;
 - (void)generateGame;
+
+#pragma mark - Move Validity Methods
+- (KMPuzzleGameMove *)validMoveForRow:(NSUInteger)row andColumn:(NSUInteger)column;
+
+#pragma mark - Index Calc Methods
+- (NSUInteger)indexForRow:(NSUInteger)row andColumn:(NSUInteger)column;
+- (NSUInteger)rowForIndex:(NSUInteger)index;
+- (NSUInteger)columnForIndex:(NSUInteger)index;
+
+#pragma mark - Move Completion Methods
+- (void)completeMove:(KMPuzzleGameMove *)move;
+
+#pragma mark - Retrieval Methods
 - (KMCanvasPatch *)canvasPatchAtRow:(NSUInteger)row andColumn:(NSUInteger)column;
 - (UIImage *)imageForRow:(NSUInteger)row andColumn:(NSUInteger)column;
+
+#pragma mark - Debug Methods
 - (void)outputGameState;
 
 @end
