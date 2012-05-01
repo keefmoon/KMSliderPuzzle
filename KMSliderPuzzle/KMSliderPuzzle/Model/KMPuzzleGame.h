@@ -14,12 +14,13 @@
 
 @property (nonatomic, assign) NSUInteger numberOfRows;
 @property (nonatomic, assign) NSUInteger numberOfColumns;
+@property (nonatomic, retain) UIImage *puzzleImage;
 @property (nonatomic, retain) NSMutableArray *moves;
 @property (nonatomic, retain) NSMutableArray *canvasPatches;
 @property (nonatomic, retain) KMImagePatch *blankImagePatch;
 
 #pragma mark - Game Lifecycle Methods
-- (id)initWithNumberOfRows:(NSUInteger)rows andColumns:(NSUInteger)columns;
+- (id)initWithImage:(UIImage *)image numberOfRows:(NSUInteger)rows andColumns:(NSUInteger)columns;
 - (void)generateGame;
 
 #pragma mark - Move Validity Methods

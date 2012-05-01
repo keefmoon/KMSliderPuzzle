@@ -22,13 +22,14 @@
 
 @synthesize numberOfRows;
 @synthesize numberOfColumns;
+@synthesize puzzleImage;
 @synthesize moves;
 @synthesize canvasPatches;
 @synthesize blankImagePatch;
 
 #pragma mark - Object Lifecycle Methods
 
-- (id)initWithNumberOfRows:(NSUInteger)rows andColumns:(NSUInteger)columns
+- (id)initWithImage:(UIImage *)image numberOfRows:(NSUInteger)rows andColumns:(NSUInteger)columns
 {
     self = [super init];
     
@@ -44,6 +45,7 @@
         
         self.numberOfRows = rows;
         self.numberOfColumns = columns;
+        self.puzzleImage = image;
     }
     return self;
 }
@@ -53,6 +55,7 @@
     self.moves = nil;
     self.canvasPatches = nil;
     self.blankImagePatch = nil;
+    self.puzzleImage = nil;
     
     [super dealloc];
 }
@@ -76,7 +79,15 @@
         {
             KMImagePatch *imagePatch = [[KMImagePatch alloc] init];
             imagePatch.index = index;
-            UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"globe_%d_%d.png", row, column]];
+            
+            // Crop the UIImage for each patch
+            CGSize imageSize = self.puzzleImage.size;
+            CGFloat imageCropWidth = imageSize.width / numberOfColumns;
+            CGFloat imageCropHeight = imageSize.height / numberOfRows;
+            
+            CGRect cropRect = CGRectMake(column * imageCropWidth, row * imageCropHeight, imageCropWidth, imageCropHeight);
+            CGImageRef puzzleImageRef = CGImageCreateWithImageInRect([self.puzzleImage CGImage],cropRect);
+            UIImage *image = [UIImage imageWithCGImage:puzzleImageRef];
             
             //If the last one, make it the blank one.
             if (row == numberOfRows-1 && column == numberOfColumns-1) 

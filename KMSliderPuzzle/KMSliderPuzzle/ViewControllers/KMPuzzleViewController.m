@@ -73,7 +73,9 @@
 {
     [super viewDidLoad];
     
-    KMPuzzleGame *tempGame = [[KMPuzzleGame alloc] initWithNumberOfRows:kNoOfRows andColumns:kNoOfColumns];
+    KMPuzzleGame *tempGame = [[KMPuzzleGame alloc] initWithImage:[UIImage imageNamed:@"Globe.png"] 
+                                                    numberOfRows:kNoOfRows 
+                                                      andColumns:kNoOfColumns];
     self.game = tempGame;
     [tempGame release];
     

@@ -59,12 +59,12 @@
     {
         [outputString appendFormat:@"%d,", startCanvas.index];
     }
-    [outputString appendString:@"\n"];
+    [outputString appendString:@"\nImage Patch Indexes: "];
     for (KMImagePatch *imagePatch in self.imagePatchesToMove) 
     {
         [outputString appendFormat:@"%d,", imagePatch.index];
     }
-    [outputString appendString:@"\n"];
+    [outputString appendString:@"\nEnd Canvas Indexes: "];
     for (KMCanvasPatch *endCanvas in self.endCanvasPatches) 
     {
         [outputString appendFormat:@"%d,", endCanvas.index];
