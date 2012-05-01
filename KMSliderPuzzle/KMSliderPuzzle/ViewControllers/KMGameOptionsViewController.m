@@ -76,7 +76,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+	return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 #pragma mark - IBAction Methods

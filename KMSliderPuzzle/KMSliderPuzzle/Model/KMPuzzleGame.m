@@ -152,6 +152,15 @@
 //
 - (KMPuzzleGameMove *)validMoveForRow:(NSUInteger)row andColumn:(NSUInteger)column
 {
+    // If the blank patch is being tested, we know if have no valid moves.
+    KMCanvasPatch *canvas = [self canvasPatchAtRow:row andColumn:column];
+    if (canvas.currentImagePatch.isBlank) 
+    {
+        KMPuzzleGameMove *inValidMove = [[[KMPuzzleGameMove alloc] init] autorelease];
+        inValidMove.moveDirection = KMPuzzleGameMoveDirectionNone;
+        return inValidMove;
+    }
+    
     KMPuzzleGameMove *validMove = [self validRowMoveForRow:row andColumn:column];
     // Only a row move or a column move can be valid, so only need to do the other if first isn't valid.
     if (validMove.moveDirection == KMPuzzleGameMoveDirectionNone) 

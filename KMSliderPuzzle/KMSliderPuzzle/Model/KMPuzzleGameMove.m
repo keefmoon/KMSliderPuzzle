@@ -53,6 +53,13 @@
 - (void)outputMoveDetails
 {
     NSMutableString *outputString = [[NSMutableString alloc] init];
+    
+    if (moveDirection == KMPuzzleGameMoveDirectionNone) { [outputString appendString:@"\nMove Direction: NONE "]; }
+    else if (moveDirection == KMPuzzleGameMoveDirectionUp) { [outputString appendString:@"\nMove Direction: UP "]; }
+    else if (moveDirection == KMPuzzleGameMoveDirectionDown) { [outputString appendString:@"\nMove Direction: DOWN "]; }
+    else if (moveDirection == KMPuzzleGameMoveDirectionLeft) { [outputString appendString:@"\nMove Direction: LEFT "]; }
+    else if (moveDirection == KMPuzzleGameMoveDirectionRight) { [outputString appendString:@"\nMove Direction: RIGHT"]; }
+    
     [outputString appendString:@"\nStart Canvas Indexes: "];
     
     for (KMCanvasPatch *startCanvas in self.startCanvasPatches) 

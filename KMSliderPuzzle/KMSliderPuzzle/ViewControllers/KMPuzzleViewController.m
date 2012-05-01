@@ -16,7 +16,7 @@
 #define kNoOfColumns    5
 
 // Comment this line in to put a label on each image view that shows the index
-#define DEBUG_LABELS
+//#define DEBUG_LABELS
 
 @interface KMPuzzleViewController ()
 
@@ -169,11 +169,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 #pragma mark - Gesture Handling Methods
@@ -266,7 +262,7 @@
         
         self.potentialMove = [game validMoveForRow:startRow andColumn:startColumn];
         
-        if (self.potentialMove.startCanvasPatches.count > 0) 
+        if (self.potentialMove.moveDirection != KMPuzzleGameMoveDirectionNone) 
         {
             [self completePotentialMove];
         }
@@ -365,16 +361,5 @@
 {
     return floorf(point.x / [self patchWidth]);
 }
-
-//// Requirement: A less than half way move returns to original point
-//// and a more than halfway move snaps to the empty patch. 
-//// Implementation: We can just take the midpoint of the current frame 
-//// and snap to hich ever canvas patch it is in.
-//
-//- (KMCanvasPatch *)canvasPatchToSnapTo:(CGRect)imagePatchRect
-//{
-//    //CGRect limitedRect = [self innerRect:imagePatchRect shiftedToWithinRect:self.puzzleView.frame];
-//    return [self canvasPatchForPoint:[self rectMidPoint:imagePatchRect]];
-//}
 
 @end
