@@ -13,13 +13,10 @@
 @synthesize index;
 @synthesize columnIndex;
 @synthesize rowIndex;
-//@synthesize patchRect;
-@synthesize correctImagePatch;
 @synthesize currentImagePatch;
 
 - (void)dealloc
 {
-    self.correctImagePatch = nil;
     self.currentImagePatch = nil;
     
     [super dealloc];

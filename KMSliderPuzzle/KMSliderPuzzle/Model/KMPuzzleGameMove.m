@@ -70,7 +70,7 @@
         [outputString appendFormat:@"%d,", endCanvas.index];
     }
     
-    DLog(@"\n----Move----%@", outputString);
+    DLog(@"\n----Potenial Move----%@\n----Potenial Move----", outputString);
 }
 
 @end

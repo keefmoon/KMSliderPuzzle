@@ -71,6 +71,8 @@
     self.canvasPatches = tempCanvaspatches;
     [tempCanvaspatches release];
     
+    NSMutableArray *imagePatches = [NSMutableArray array];
+    
     NSUInteger index = 0;
     
     for (int row = 0; row < numberOfRows; row++) 
@@ -101,12 +103,14 @@
                 imagePatch.image = image;
             }
             
+            // Stick image patch in array which we will need to randomise
+            [imagePatches addObject:imagePatch];
+            
             KMCanvasPatch *canvasPatch = [[KMCanvasPatch alloc] init];
             canvasPatch.index = index;
             canvasPatch.rowIndex = row;
             canvasPatch.columnIndex = column;
-            canvasPatch.correctImagePatch = imagePatch;
-            canvasPatch.currentImagePatch = imagePatch;
+            //canvasPatch.currentImagePatch = imagePatch;
             
             [self.canvasPatches addObject:canvasPatch];
             [canvasPatch release];
@@ -115,7 +119,31 @@
             index++;
         }
     }
+    
+    // Randomise the image patches and put them into the canvas patches
+    for (KMCanvasPatch *canvasPatch in self.canvasPatches) 
+    {
+        NSUInteger randomIndex = arc4random() % [imagePatches count];
+        canvasPatch.currentImagePatch = [imagePatches objectAtIndex:randomIndex];
+        [imagePatches removeObjectAtIndex:randomIndex];
+    }
+    
     [self outputGameState];
+}
+
+- (BOOL)isGameComplete
+{
+    BOOL gameComplete = YES;
+    
+    for (KMCanvasPatch *canvas in self.canvasPatches) 
+    {
+        if (canvas.index != canvas.currentImagePatch.index) 
+        {
+            gameComplete = NO;
+        }
+    }
+    
+    return gameComplete;
 }
 
 #pragma mark - Move Validity Methods
@@ -310,15 +338,17 @@
     if (move.moveDirection == KMPuzzleGameMoveDirectionUp ||
         move.moveDirection == KMPuzzleGameMoveDirectionLeft) 
     {
-        KMCanvasPatch *newBlankPatch = [move.startCanvasPatches objectAtIndex:0];
+        KMCanvasPatch *newBlankPatch = [move.startCanvasPatches lastObject];
         newBlankPatch.currentImagePatch = blankImagePatch;
     }
     else if (move.moveDirection == KMPuzzleGameMoveDirectionDown ||
              move.moveDirection == KMPuzzleGameMoveDirectionRight)
     {
-        KMCanvasPatch *newBlankPatch = [move.startCanvasPatches lastObject];
+        KMCanvasPatch *newBlankPatch = [move.startCanvasPatches objectAtIndex:0];
         newBlankPatch.currentImagePatch = blankImagePatch;
     }
+    
+    [moves addObject:move];
     
     [self outputGameState];
 }

@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		2F00A79A155074C900BBF10F /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A799155074C900BBF10F /* Globe.png */; };
 		2F00A79B155074C900BBF10F /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A799155074C900BBF10F /* Globe.png */; };
+		2F00A79D155079B100BBF10F /* keefmoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A79C155079B100BBF10F /* keefmoon.png */; };
+		2F00A79E155079B100BBF10F /* keefmoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A79C155079B100BBF10F /* keefmoon.png */; };
+		2F00A7A215507B4D00BBF10F /* KMGameOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F00A7A015507B4D00BBF10F /* KMGameOptionsViewController.m */; };
+		2F00A7A315507B4D00BBF10F /* KMGameOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F00A7A015507B4D00BBF10F /* KMGameOptionsViewController.m */; };
+		2F00A7A415507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7A115507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib */; };
+		2F00A7A515507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7A115507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib */; };
+		2F00A7A715507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7A615507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib */; };
+		2F00A7A815507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7A615507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib */; };
+		2F00A7B115509C0100BBF10F /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7AD15509C0100BBF10F /* Icon~ipad.png */; };
+		2F00A7B215509C0100BBF10F /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7AD15509C0100BBF10F /* Icon~ipad.png */; };
+		2F00A7B315509C0100BBF10F /* Icon~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7AE15509C0100BBF10F /* Icon~ipad@2x.png */; };
+		2F00A7B415509C0100BBF10F /* Icon~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7AE15509C0100BBF10F /* Icon~ipad@2x.png */; };
+		2F00A7B515509C0100BBF10F /* Icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7AF15509C0100BBF10F /* Icon~iphone.png */; };
+		2F00A7B615509C0100BBF10F /* Icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7AF15509C0100BBF10F /* Icon~iphone.png */; };
+		2F00A7B715509C0100BBF10F /* Icon~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7B015509C0100BBF10F /* Icon~iphone@2x.png */; };
+		2F00A7B815509C0100BBF10F /* Icon~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00A7B015509C0100BBF10F /* Icon~iphone@2x.png */; };
 		2F9F746C154A8A3100BA9168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746B154A8A3100BA9168 /* UIKit.framework */; };
 		2F9F746E154A8A3100BA9168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746D154A8A3100BA9168 /* Foundation.framework */; };
 		2F9F7470154A8A3100BA9168 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F746F154A8A3100BA9168 /* CoreGraphics.framework */; };
@@ -26,10 +42,10 @@
 		2F9F74B0154A8A9B00BA9168 /* KMImagePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74A7154A8A9B00BA9168 /* KMImagePatch.m */; };
 		2F9F74B1154A8A9B00BA9168 /* KMPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74AA154A8A9B00BA9168 /* KMPuzzleViewController.m */; };
 		2F9F74B2154A8A9B00BA9168 /* KMPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F74AA154A8A9B00BA9168 /* KMPuzzleViewController.m */; };
-		2F9F74B3154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib */; };
-		2F9F74B4154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib */; };
-		2F9F74B5154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib */; };
-		2F9F74B6154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib */; };
+		2F9F74B3154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib */; };
+		2F9F74B4154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib */; };
+		2F9F74B5154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib */; };
+		2F9F74B6154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib */; };
 		2F9F7554154C645B00BA9168 /* KMPuzzleGameMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F7553154C645B00BA9168 /* KMPuzzleGameMove.m */; };
 		2F9F7555154C645B00BA9168 /* KMPuzzleGameMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F7553154C645B00BA9168 /* KMPuzzleGameMove.m */; };
 		2F9F7558154C72AA00BA9168 /* KMPuzzleGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F7557154C72AA00BA9168 /* KMPuzzleGame.m */; };
@@ -48,6 +64,15 @@
 
 /* Begin PBXFileReference section */
 		2F00A799155074C900BBF10F /* Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Globe.png; sourceTree = "<group>"; };
+		2F00A79C155079B100BBF10F /* keefmoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keefmoon.png; sourceTree = "<group>"; };
+		2F00A79F15507B4D00BBF10F /* KMGameOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMGameOptionsViewController.h; sourceTree = "<group>"; };
+		2F00A7A015507B4D00BBF10F /* KMGameOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMGameOptionsViewController.m; sourceTree = "<group>"; };
+		2F00A7A115507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMGameOptionsViewController~ipad.xib"; sourceTree = "<group>"; };
+		2F00A7A615507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMGameOptionsViewController~iphone.xib"; sourceTree = "<group>"; };
+		2F00A7AD15509C0100BBF10F /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon~ipad.png"; path = "Graphics/Icons/Icon~ipad.png"; sourceTree = "<group>"; };
+		2F00A7AE15509C0100BBF10F /* Icon~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon~ipad@2x.png"; path = "Graphics/Icons/Icon~ipad@2x.png"; sourceTree = "<group>"; };
+		2F00A7AF15509C0100BBF10F /* Icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon~iphone.png"; path = "Graphics/Icons/Icon~iphone.png"; sourceTree = "<group>"; };
+		2F00A7B015509C0100BBF10F /* Icon~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon~iphone@2x.png"; path = "Graphics/Icons/Icon~iphone@2x.png"; sourceTree = "<group>"; };
 		2F9F7467154A8A3100BA9168 /* KMSliderPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMSliderPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9F746B154A8A3100BA9168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F9F746D154A8A3100BA9168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,8 +95,8 @@
 		2F9F74A7154A8A9B00BA9168 /* KMImagePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMImagePatch.m; sourceTree = "<group>"; };
 		2F9F74A9154A8A9B00BA9168 /* KMPuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPuzzleViewController.h; sourceTree = "<group>"; };
 		2F9F74AA154A8A9B00BA9168 /* KMPuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPuzzleViewController.m; sourceTree = "<group>"; };
-		2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMPuzzleViewController_iPad.xib; sourceTree = "<group>"; };
-		2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMPuzzleViewController_iPhone.xib; sourceTree = "<group>"; };
+		2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMPuzzleViewController~ipad.xib"; sourceTree = "<group>"; };
+		2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMPuzzleViewController~iphone.xib"; sourceTree = "<group>"; };
 		2F9F754D154C55BD00BA9168 /* KMDebugMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDebugMarco.h; sourceTree = "<group>"; };
 		2F9F7552154C645B00BA9168 /* KMPuzzleGameMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPuzzleGameMove.h; sourceTree = "<group>"; };
 		2F9F7553154C645B00BA9168 /* KMPuzzleGameMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPuzzleGameMove.m; sourceTree = "<group>"; };
@@ -106,6 +131,7 @@
 		2F00A79415506CEF00BBF10F /* Puzzles */ = {
 			isa = PBXGroup;
 			children = (
+				2F00A79C155079B100BBF10F /* keefmoon.png */,
 				2F00A799155074C900BBF10F /* Globe.png */,
 			);
 			path = Puzzles;
@@ -158,6 +184,10 @@
 		2F9F7472154A8A3100BA9168 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F00A7AD15509C0100BBF10F /* Icon~ipad.png */,
+				2F00A7AE15509C0100BBF10F /* Icon~ipad@2x.png */,
+				2F00A7AF15509C0100BBF10F /* Icon~iphone.png */,
+				2F00A7B015509C0100BBF10F /* Icon~iphone@2x.png */,
 				2F9F7473154A8A3100BA9168 /* KMSliderPuzzle-Info.plist */,
 				2F9F7474154A8A3100BA9168 /* InfoPlist.strings */,
 				2F9F7477154A8A3100BA9168 /* main.m */,
@@ -205,8 +235,12 @@
 			children = (
 				2F9F74A9154A8A9B00BA9168 /* KMPuzzleViewController.h */,
 				2F9F74AA154A8A9B00BA9168 /* KMPuzzleViewController.m */,
-				2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib */,
-				2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib */,
+				2F9F74AB154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib */,
+				2F9F74AC154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib */,
+				2F00A79F15507B4D00BBF10F /* KMGameOptionsViewController.h */,
+				2F00A7A015507B4D00BBF10F /* KMGameOptionsViewController.m */,
+				2F00A7A115507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib */,
+				2F00A7A615507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -292,9 +326,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9F7476154A8A3100BA9168 /* InfoPlist.strings in Resources */,
-				2F9F74B3154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib in Resources */,
-				2F9F74B5154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib in Resources */,
+				2F9F74B3154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib in Resources */,
+				2F9F74B5154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib in Resources */,
 				2F00A79A155074C900BBF10F /* Globe.png in Resources */,
+				2F00A79D155079B100BBF10F /* keefmoon.png in Resources */,
+				2F00A7A415507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib in Resources */,
+				2F00A7A715507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib in Resources */,
+				2F00A7B115509C0100BBF10F /* Icon~ipad.png in Resources */,
+				2F00A7B315509C0100BBF10F /* Icon~ipad@2x.png in Resources */,
+				2F00A7B515509C0100BBF10F /* Icon~iphone.png in Resources */,
+				2F00A7B715509C0100BBF10F /* Icon~iphone@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +344,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9F7497154A8A3100BA9168 /* InfoPlist.strings in Resources */,
-				2F9F74B4154A8A9B00BA9168 /* KMPuzzleViewController_iPad.xib in Resources */,
-				2F9F74B6154A8A9B00BA9168 /* KMPuzzleViewController_iPhone.xib in Resources */,
+				2F9F74B4154A8A9B00BA9168 /* KMPuzzleViewController~ipad.xib in Resources */,
+				2F9F74B6154A8A9B00BA9168 /* KMPuzzleViewController~iphone.xib in Resources */,
 				2F00A79B155074C900BBF10F /* Globe.png in Resources */,
+				2F00A79E155079B100BBF10F /* keefmoon.png in Resources */,
+				2F00A7A515507B4D00BBF10F /* KMGameOptionsViewController~ipad.xib in Resources */,
+				2F00A7A815507B7F00BBF10F /* KMGameOptionsViewController~iphone.xib in Resources */,
+				2F00A7B215509C0100BBF10F /* Icon~ipad.png in Resources */,
+				2F00A7B415509C0100BBF10F /* Icon~ipad@2x.png in Resources */,
+				2F00A7B615509C0100BBF10F /* Icon~iphone.png in Resources */,
+				2F00A7B815509C0100BBF10F /* Icon~iphone@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +387,7 @@
 				2F9F74B1154A8A9B00BA9168 /* KMPuzzleViewController.m in Sources */,
 				2F9F7554154C645B00BA9168 /* KMPuzzleGameMove.m in Sources */,
 				2F9F7558154C72AA00BA9168 /* KMPuzzleGame.m in Sources */,
+				2F00A7A215507B4D00BBF10F /* KMGameOptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +401,7 @@
 				2F9F74B2154A8A9B00BA9168 /* KMPuzzleViewController.m in Sources */,
 				2F9F7555154C645B00BA9168 /* KMPuzzleGameMove.m in Sources */,
 				2F9F7559154C72AA00BA9168 /* KMPuzzleGame.m in Sources */,
+				2F00A7A315507B4D00BBF10F /* KMGameOptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

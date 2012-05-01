@@ -14,6 +14,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) KMPuzzleViewController *viewController;
+@property (nonatomic, retain) UINavigationController *rootController;
 
 @end

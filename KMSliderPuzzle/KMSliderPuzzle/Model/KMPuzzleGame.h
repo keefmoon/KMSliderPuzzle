@@ -22,6 +22,7 @@
 #pragma mark - Game Lifecycle Methods
 - (id)initWithImage:(UIImage *)image numberOfRows:(NSUInteger)rows andColumns:(NSUInteger)columns;
 - (void)generateGame;
+- (BOOL)isGameComplete;
 
 #pragma mark - Move Validity Methods
 - (KMPuzzleGameMove *)validMoveForRow:(NSUInteger)row andColumn:(NSUInteger)column;

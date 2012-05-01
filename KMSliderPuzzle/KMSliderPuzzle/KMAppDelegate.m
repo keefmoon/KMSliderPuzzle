@@ -8,30 +8,32 @@
 
 #import "KMAppDelegate.h"
 
+#import "KMGameOptionsViewController.h"
 #import "KMPuzzleViewController.h"
 
 @implementation KMAppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
+@synthesize rootController;
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    self.rootController = nil;
+    
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[KMPuzzleViewController alloc] initWithNibName:@"KMPuzzleViewController_iPhone" bundle:nil] autorelease];
-    } else {
-        self.viewController = [[[KMPuzzleViewController alloc] initWithNibName:@"KMPuzzleViewController_iPad" bundle:nil] autorelease];
-    }
-    self.window.rootViewController = self.viewController;
+    
+    KMGameOptionsViewController *gameOptionsVC = [[KMGameOptionsViewController alloc] initWithNibName:@"KMGameOptionsViewController" 
+                                                                                               bundle:nil];
+    self.rootController = [[UINavigationController alloc] initWithRootViewController:gameOptionsVC];
+    [gameOptionsVC release];
+    
+    self.window.rootViewController = self.rootController;
     [self.window makeKeyAndVisible];
     return YES;
 }
