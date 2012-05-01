@@ -8,6 +8,13 @@
 	<string>Keef Puzzle</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon~iphone.png</string>
+		<string>Icon~iphone@2x.png</string>
+		<string>Icon~ipad.png</string>
+		<string>Icon~ipad@2x.png</string>
+	</array>
 	<key>CFBundleIcons</key>
 	<dict>
 		<key>CFBundlePrimaryIcon</key>
@@ -15,7 +22,12 @@
 			<key>CFBundleIconFiles</key>
 			<array>
 				<string>Icon~iphone.png</string>
+				<string>Icon~iphone@2x.png</string>
+				<string>Icon~ipad.png</string>
+				<string>Icon~ipad@2x.png</string>
 			</array>
+			<key>UIPrerenderedIcon</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
@@ -34,6 +46,8 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -46,12 +60,5 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>Icon~iphone</string>
-		<string>Icon~ipad</string>
-	</array>
-	<key>UIPrerenderedIcon</key>
-	<true/>
 </dict>
 </plist>
